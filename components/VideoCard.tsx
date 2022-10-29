@@ -62,7 +62,7 @@ const VideoCard : NextPage<IProps> = ({post}) => {
 
            }
            className='rounded-3xl'>
-            <Link href="/">
+            <Link href={`/Detail/${post._id}`}>
                 <video 
                 loop
                 ref={videoRef}
